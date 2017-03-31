@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/tab_pd_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="50dp" >
+
+        <ImageButton
+            android:id="@+id/pcs_pcs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/purchase_purchase" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_purchas_name"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_pd_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tab_pd_ll"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp" >
+
+        <ImageButton
+            android:id="@+id/pcs_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/all_query" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_purchas_query"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_pd_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tab_pd_ll"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingTop="50dp" >
+<ImageButton
+            android:id="@+id/pcs_export"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tab_export"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_purchas_export"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+     <LinearLayout
+        android:id="@+id/tab_pd_export"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@+id/tab_pd_ll"
+        android:gravity="center"
+        android:layout_below="@+id/tab_pd_upload"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingTop="50dp" >
+        
+          <ImageButton
+            android:id="@+id/pcs_trans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pd_trash" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_trans_name"
+            android:textColor="#000000" />
+
+        
+    </LinearLayout>
+
+</RelativeLayout>

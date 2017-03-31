@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+            
+    <drawable name="clr_normal">#6666cc</drawable>
+ <drawable name="clr_pressed">#ff6501</drawable>
+
+    <string name="warehouse_introduce">    本应用通过扫描商品条形码得到该商品的详细介绍，包括：条码，编码，品名，规格，单价等；具体流程如下：\n
+\n
+1. 按下“SCAN”按钮启动扫描仪，扫描并获取商品条形码等；\n
+\n
+2. 通过编辑框可以手动输入商品数量（默认为1）；\n
+\n
+3. 点击“ENT”按钮保存到本地数据库。</string>
+    <string name="app_name">万和盘点</string>
+    <string name="app_title_name">万和盘点系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_inventory_name">盘点</string>
+    <string name="tab_purchas_name">采购</string>
+    <string name="psc_title_name">商品采购</string>
+    <string name="tab_purchas_query">采购查询</string>
+    <string name="tab_purchas_export">采购导出</string>
+    <string name="tab_price_name">核价</string>
+    <string name="pic_title_name">商品核价</string>
+    <string name="tab_price_query">核价查询</string>
+    
+    <string name="tab_exit_name">退出</string>
+    <string name="tab_upload_name">上传</string>
+    <string name="pd_query_name">盘点查询</string>
+   <string name="progressbar_info">数据正在传送，请等待。。。</string>
+    <string name="tab_download_name">下载</string>
+    <string name="tab_trans_name">清空</string>
+     <string name="tab_name_export">盘点导出</string>
+    <string name="tab_pic_export">核价导出</string>
+    <string name="pd_start_scan">开始盘点</string>
+    <string name="pic_start_scan">开始核价</string>
+    <string name="sql_used">销量</string>
+    <string name="sql_zxl">装箱</string>
+    <string name="sql_stock">库存</string>
+    <string name="sql_id">条码</string>
+    <string name="sql_name">名称</string>
+    <string name="sql_code">编码</string>
+    <string name="sql_gg">规格</string>
+    <string name="sql_jldw">单位</string>
+    <string name="sql_dj">单价</string>
+    <string name="sql_spsl">总量</string>
+    <string name="query_huojia">货架</string>
+    <string name="sql_updata_spsl">数量</string>
+    <string name="exit_help">    本应用帮助介绍，具体流程如下：\n
+\n
+--1. 首先选择“服务器地址”按钮，输入服务器地址以便加载后台数据；\n
+
+--2. 其次选择“下载”按钮，下载完成（必须）以后再进行下一步操作；\n
+
+--3. 点击“盘点”按钮，然后输入货架号点击确定进入盘点页面；\n
+
+--4. 按下“SCAN”按钮启动扫描仪，扫描并获取商品条形码等；\n
+
+--5. 通过编辑框可以手动输入需要增加的商品数量（默认为1）；\n
+
+--6. 点击“ENT”按钮保存到本地数据库；\n
+
+--7. 当货架盘点完成以后，提示保存；\n
+
+--8. 商品盘点完成以后，点击“上传”按钮上传数据到服务器。\n
+\n
+注意事项：\n\n
+--1. 清空：为清除本地已经更新的数据，请谨慎操作；\n
+--2. 下载：下载数据会清空本地已经存储的数据！；
+</string>
+
+</resources>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/showExtra"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#6666cc"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/sql_id"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/pd_scan_id"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+           android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:inputType="number"
+             android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- android:hint="扫描到的条码号" -->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cecece" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sql_name"
+            
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/pd_scan_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+           
+            android:textSize="20sp"
+            android:gravity="center"
+           
+            android:textStyle="bold" />
+    </LinearLayout>
+ <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cecece" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sql_code"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/pd_scan_code"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:inputType="number"
+             android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+ <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cecece" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sql_dj"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/pd_scan_dj"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+             android:textSize="20sp"
+            android:gravity="center"
+            
+            android:textStyle="bold" />
+    </LinearLayout>
+ <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cecece" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sql_updata_spsl"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/pd_update"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            android:gravity="center"
+            android:inputType="number"
+            
+             android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+ <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cecece" />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sql_spsl"
+            android:textSize="17sp" />
+
+         <EditText
+            android:id="@+id/pd_spsl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+           
+            android:textSize="20sp"
+            android:gravity="center"
+           
+            android:textStyle="bold" />
+    </LinearLayout>
+ <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cecece" />
+    
+  <!--   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pd_scan_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            
+             android:layout_marginLeft="20dp"
+            android:text="查询数据" />
+
+        <Button
+            android:id="@+id/pd_scan_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            
+            android:text="退出盘点" />
+    </LinearLayout> -->
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="0dp"
+        android:focusable="false"
+        android:layout_height="0dp" />
+
+</LinearLayout>

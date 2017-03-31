@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zzu.wyz"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <!-- 条码扫描权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 网络数据访问权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 内存卡的读写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_pd_logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zzu.wyz.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zzu.wyz.InventoryActivity" />
+        <activity android:name="com.zzu.wyz.WarehouseActivity" />
+        <activity android:name="com.zzu.wyz.QueryMenu" />
+        <activity android:name="com.zzu.wyz.HelpAndQueit" />
+        <activity android:name="com.zzu.wyz.PurchasActivity" />
+          <activity android:name="com.zzu.wyz.PurchasQueryActivity" />
+        <activity android:name="com.zzu.wyz.PriceActivity" />
+        <activity android:name="com.zzu.wyz.PriceQueryActivity" />
+        <activity android:name="com.zzu.wyz.InventoryQueryActivity" />
+         <activity android:name="com.zzu.wyz.PriceCelectActivity" />
+    </application>
+
+</manifest>

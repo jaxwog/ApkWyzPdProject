@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:text="@string/warehouse_introduce"
+        android:textColor="#000000" />
+
+   
+
+    <EditText
+        android:id="@+id/pd_shelf"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/bg_edittext"
+        android:gravity="center"
+         android:textSize="20sp"
+         android:textStyle="bold"
+        android:hint="请输入您的货架号"
+        android:textColorHint="@android:color/black"
+        android:inputType="number" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#cecece" />
+
+    <Button
+        android:id="@+id/pd_start_scan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+    android:background="@drawable/login_button_selector"
+        android:gravity="center"
+        android:text="@string/pd_start_scan" />
+
+</LinearLayout>
